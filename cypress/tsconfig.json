@@ -8,7 +8,8 @@
     "types": [
       "cypress",
       "cypress-axe",
-      "node"
+      "node",
+      "mocha"
     ]
   }
 }
