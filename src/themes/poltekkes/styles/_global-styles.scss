@@ -23,11 +23,53 @@
 }
 
 .btn-primary.disabled, .btn-primary:disabled {
-  color: #43515f;
-  background-color: #F3E90E;
-  border-color: #F3E90E;
+  color: $primary;
+  background-color: $secondary;
+  border-color: $secondary;
+}
+
+.btn-primary.disabled:hover, .btn-primary:disabled:hover {
+  opacity: 0.5;
 }
 
 .btn:disabled {
+  opacity: 0.5;
+}
+
+.btn-primary {
+  color: $primary;
+  background-color: $secondary;
+  border-color: $secondary;
+  opacity: 0.9;
+}
+
+.btn-primary:hover{
+  color: $primary;
+  background-color: $secondary;
+  border-color: $secondary;
   opacity: 1;
+}
+
+.btn-secondary {
+  opacity: 0.8;
+}
+
+.btn-secondary:hover {
+  background-color: $secondary;
+  border-color: $secondary;
+  opacity: 1;
+}
+
+.btn-outline-secondary {
+  color: #43515f;
+  border-color: #43515f;
+}
+
+.dropdown-item {
+  color: #fff;
+}
+
+.dropdown-item:hover {
+  color: $secondary;
+  background-color: $primary;
 }
