@@ -1,10 +1,12 @@
 <div *ngIf="currentPageState === undefined || currentPageState === (currentPage$|async)" [id]="'p-' + id">
   <div *ngIf="(!hidePaginationDetail && collectionSize > 0) || !hideGear" class="pagination-masked clearfix top">
     <div class="row">
+      <!--
       <div *ngIf="!hidePaginationDetail && collectionSize > 0" class="col-auto pagination-info">
           <span class="align-middle hidden-xs-down">{{ 'pagination.showing.label' | translate }}</span>
           <span class="align-middle">{{ 'pagination.showing.detail' | translate:(getShowingDetails(collectionSize)|async)}}</span>
       </div>
+      -->
       <div class="col">
         <div *ngIf="!hideGear" ngbDropdown #paginationControls="ngbDropdown" placement="bottom-right" class="d-inline-block float-right">
           <button class="btn btn-secondary" id="paginationControls" ngbDropdownToggle [title]="'pagination.options.description' | translate" [attr.aria-label]="'pagination.options.description' | translate" aria-haspopup="true" aria-expanded="false"><i class="fas fa-cog" aria-hidden="true"></i></button>

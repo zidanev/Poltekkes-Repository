@@ -10,8 +10,10 @@
           <ds-comcol-page-logo *ngIf="logoRD$" [logo]="(logoRD$ | async)?.payload" [alternateText]="'community.logo' | translate">
           </ds-comcol-page-logo>
           <!-- Handle -->
+          <!--
           <ds-comcol-page-handle [content]="communityPayload.handle" [title]="'community.page.handle'">
           </ds-comcol-page-handle>
+          -->
           <!-- Introductory text -->
           <ds-comcol-page-content [content]="communityPayload.introductoryText" [hasInnerHtml]="true">
           </ds-comcol-page-content>

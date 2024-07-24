@@ -1388,11 +1388,11 @@
 
   "collection.source.update.notifications.error.title": "Server Error",
 
-  "communityList.breadcrumbs": "Community List",
+  "communityList.breadcrumbs": "Collections",
 
-  "communityList.tabTitle": "Community List",
+  "communityList.tabTitle": "Collections",
 
-  "communityList.title": "List of Communities",
+  "communityList.title": "List of Collections",
 
   "communityList.showMore": "Show More",
 
@@ -2122,7 +2122,7 @@
 
   "home.title": "Home",
 
-  "home.top-level-communities.head": "Communities in DSpace",
+  "home.top-level-communities.head": "Collections in Poltekkes",
 
   "home.top-level-communities.help": "Select a community to browse its collections.",
 
@@ -2156,7 +2156,7 @@
 
   "info.feedback.title": "Feedback",
 
-  "info.feedback.info": "Thanks for sharing your feedback about the DSpace system. Your comments are appreciated!",
+  "info.feedback.info": "Thanks for sharing your feedback about the Poltekkes Repository system. Your comments are appreciated!",
 
   "info.feedback.email_help": "This address will be used to follow up on your feedback.",
 
@@ -3232,7 +3232,7 @@
 
   "menu.section.browse_community_by_title": "By Title",
 
-  "menu.section.browse_global": "All of Poltekkes",
+  "menu.section.browse_global": "Browse",
 
   "menu.section.browse_global_by_author": "By Author",
 
@@ -3246,7 +3246,7 @@
 
   "menu.section.browse_global_by_title": "By Title",
 
-  "menu.section.browse_global_communities_and_collections": "Communities & Collections",
+  "menu.section.browse_global_communities_and_collections": "Collections",
 
   "menu.section.control_panel": "Control Panel",
 
