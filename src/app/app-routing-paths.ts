@@ -53,14 +53,14 @@ export function getProfileModuleRoute() {
   return `/${PROFILE_MODULE_PATH}`;
 }
 
-export const REGISTER_PATH = 'register';
+export const REGISTER_PATH = '404';
 
 export function getRegisterRoute() {
   return `/${REGISTER_PATH}`;
 
 }
 
-export const FORGOT_PASSWORD_PATH = 'forgot';
+export const FORGOT_PASSWORD_PATH = '404';
 
 export function getForgotPasswordRoute() {
   return `/${FORGOT_PASSWORD_PATH}`;
