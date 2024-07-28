@@ -66,10 +66,26 @@
 }
 
 .dropdown-item {
-  color: #fff;
+  color: #43515f;
+
+  .text-secondary {
+    color: $primary !important;
+  }
 }
 
 .dropdown-item:hover {
   color: $secondary;
   background-color: $primary;
+
+  .text-primary {
+    color: #fff !important;
+  }
+
+  .text-secondary {
+    color: #fff !important;
+  }
+}
+
+.facet-filter .badge-secondary, .setting-option .badge-secondary, .advanced-search .badge-secondary {
+  background-color: var(--bs-secondary);
 }
