@@ -89,3 +89,14 @@
 .facet-filter .badge-secondary, .setting-option .badge-secondary, .advanced-search .badge-secondary {
   background-color: var(--bs-secondary);
 }
+
+.badge-primary {
+  color: $primary;
+  background-color: $secondary;
+}
+
+.btn-outline-primary:hover {
+  color: $primary;
+  background-color: $secondary;
+  border-color: $secondary;
+}

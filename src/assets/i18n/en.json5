@@ -3480,7 +3480,7 @@
 
   "nav.language": "Language switch",
 
-  "nav.login": "Log In",
+  "nav.login": "Admin Log In",
 
   "nav.user-profile-menu-and-logout": "User profile menu and log out",
 
@@ -4596,7 +4596,7 @@
 
   "search.form.search_dspace": "All repository",
 
-  "search.form.scope.all": "All of DSpace",
+  "search.form.scope.all": "All of Poltekkes",
 
   "search.results.head": "Search Results",
 

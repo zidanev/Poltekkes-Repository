@@ -235,12 +235,14 @@ export const APP_ROUTES: Route[] = [
         path: FORBIDDEN_PATH,
         component: ThemedForbiddenComponent,
       },
+      /*
       {
         path: 'statistics',
         loadChildren: () => import('./statistics-page/statistics-page-routes')
           .then((m) => m.ROUTES),
         canActivate: [endUserAgreementCurrentUserGuard],
       },
+      */
       {
         path: HEALTH_PAGE_PATH,
         loadChildren: () => import('./health-page/health-page-routes')

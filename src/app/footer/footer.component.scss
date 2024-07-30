@@ -3,8 +3,19 @@
     background-color: var(--ds-footer-bg);
     text-align: center;
     z-index: var(--ds-footer-z-index);
-    border-top: var(--ds-footer-border);
+    // border-top: var(--ds-footer-border);
     padding: var(--ds-footer-padding);
+    position: relative;
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 4px; 
+      background-color: #F3E90E; 
+    }
 
     p {
       margin: 0;
