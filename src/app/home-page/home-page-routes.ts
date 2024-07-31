@@ -13,7 +13,8 @@ export const ROUTES: Route[] = [
     data: {
       title: 'home.title',
       menu: {
-        public: [{
+        public: [
+          /*{
           id: 'statistics_site',
           active: true,
           visible: true,
@@ -23,7 +24,8 @@ export const ROUTES: Route[] = [
             text: 'menu.section.statistics',
             link: 'statistics',
           } as LinkMenuItemModel,
-        }],
+        }*/
+        ],
       },
     },
     resolve: {
