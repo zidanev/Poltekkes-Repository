@@ -28,6 +28,7 @@ import { ThemedRootComponent } from './root/themed-root.component';
 import { IdleModalComponent } from './shared/idle-modal/idle-modal.component';
 import { NotificationComponent } from './shared/notifications/notification/notification.component';
 import { NotificationsBoardComponent } from './shared/notifications/notifications-board/notifications-board.component';
+import { ContactUsComponent } from './contact-us-page/contact-us.component';
 
 const IMPORTS = [
   CommonModule,
@@ -64,6 +65,7 @@ const DECLARATIONS = [
   ThemedPageErrorComponent,
   PageErrorComponent,
   ContextHelpToggleComponent,
+  ContactUsComponent,
 ];
 
 const EXPORTS = [
@@ -72,14 +74,14 @@ const EXPORTS = [
 @NgModule({
   imports: [
     ...IMPORTS,
-    ...DECLARATIONS,
+    // ...DECLARATIONS,
   ],
   providers: [
     ...PROVIDERS,
   ],
   exports: [
     ...EXPORTS,
-    ...DECLARATIONS,
+    // ...DECLARATIONS,
   ],
 })
 export class RootModule {

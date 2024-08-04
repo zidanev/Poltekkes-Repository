@@ -42,6 +42,8 @@ import { ThemedPageNotFoundComponent } from './pagenotfound/themed-pagenotfound.
 import { PROCESS_MODULE_PATH } from './process-page/process-page-routing.paths';
 import { provideSubmissionState } from './submission/provide-submission-state';
 import { SUGGESTION_MODULE_PATH } from './suggestions-page/suggestions-page-routing-paths';
+import { ContactUsComponent } from './contact-us-page/contact-us.component';
+import { i18nBreadcrumbResolver } from './core/breadcrumbs/i18n-breadcrumb.resolver';
 
 export const APP_ROUTES: Route[] = [
   { path: INTERNAL_SERVER_ERROR, component: ThemedPageInternalServerErrorComponent },
@@ -258,6 +260,12 @@ export const APP_ROUTES: Route[] = [
         loadChildren: () => import('./subscriptions-page/subscriptions-page-routes')
           .then((m) => m.ROUTES),
         canActivate: [authenticatedGuard],
+      },
+      { path: 'contact-us',
+        component: ContactUsComponent,
+        pathMatch: 'full',
+        resolve: { breadcrumb: i18nBreadcrumbResolver },
+        data: { breadcrumbKey: 'contact-us', title: 'contact-us.title' , showBreadcrumbs: true },
       },
       { path: '**', pathMatch: 'full', component: ThemedPageNotFoundComponent },
     ],
