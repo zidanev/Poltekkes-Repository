@@ -1388,11 +1388,11 @@
 
   "collection.source.update.notifications.error.title": "Server Error",
 
-  "communityList.breadcrumbs": "Community List",
+  "communityList.breadcrumbs": "Collections",
 
-  "communityList.tabTitle": "Community List",
+  "communityList.tabTitle": "Collections",
 
-  "communityList.title": "List of Communities",
+  "communityList.title": "List of Collections",
 
   "communityList.showMore": "Show More",
 
@@ -1402,7 +1402,7 @@
 
   "community.browse.logo": "Browse for a community logo",
 
-  "community.subcoms-cols.breadcrumbs": "Subcommunities and Collections",
+  "community.subcoms-cols.breadcrumbs": "Subcollections",
 
   "community.create.breadcrumbs": "Create Community",
 
@@ -1560,11 +1560,11 @@
 
   "community.page.news": "News",
 
-  "community.all-lists.head": "Subcommunities and Collections",
+  "community.all-lists.head": "Subcollections",
 
   "community.search.results.head": "Search Results",
 
-  "community.sub-collection-list.head": "Collections in this Community",
+  "community.sub-collection-list.head": "Collections in this Jurusan",
 
   "community.sub-community-list.head": "Communities in this Community",
 
@@ -2122,7 +2122,7 @@
 
   "home.title": "Home",
 
-  "home.top-level-communities.head": "Communities in DSpace",
+  "home.top-level-communities.head": "Collections in Poltekkes",
 
   "home.top-level-communities.help": "Select a community to browse its collections.",
 
@@ -2156,7 +2156,7 @@
 
   "info.feedback.title": "Feedback",
 
-  "info.feedback.info": "Thanks for sharing your feedback about the DSpace system. Your comments are appreciated!",
+  "info.feedback.info": "Thanks for sharing your feedback about the Poltekkes Repository system. Your comments are appreciated!",
 
   "info.feedback.email_help": "This address will be used to follow up on your feedback.",
 
@@ -3232,7 +3232,7 @@
 
   "menu.section.browse_community_by_title": "By Title",
 
-  "menu.section.browse_global": "All of DSpace",
+  "menu.section.browse_global": "Browse",
 
   "menu.section.browse_global_by_author": "By Author",
 
@@ -3246,7 +3246,7 @@
 
   "menu.section.browse_global_by_title": "By Title",
 
-  "menu.section.browse_global_communities_and_collections": "Communities & Collections",
+  "menu.section.browse_global_communities_and_collections": "Collections",
 
   "menu.section.control_panel": "Control Panel",
 
@@ -3480,7 +3480,7 @@
 
   "nav.language": "Language switch",
 
-  "nav.login": "Log In",
+  "nav.login": "Admin Log In",
 
   "nav.user-profile-menu-and-logout": "User profile menu and log out",
 
@@ -4596,7 +4596,7 @@
 
   "search.form.search_dspace": "All repository",
 
-  "search.form.scope.all": "All of DSpace",
+  "search.form.scope.all": "All of Poltekkes",
 
   "search.results.head": "Search Results",
 
@@ -6739,4 +6739,8 @@
   "item.page.cc.license.disclaimer": "Except where otherwised noted, this item's license is described as",
 
   "browse.search-form.placeholder": "Search the repository",
+
+  "contact-us": {
+    "breadcrumbs" : "Contact Us",
+  }
 }
